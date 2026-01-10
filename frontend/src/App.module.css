@@ -1,0 +1,22 @@
+.app {
+  font-family: system-ui, -apple-system, sans-serif;
+  min-height: 100vh;
+  background-color: #f9fafb;
+}
+.header {
+  background-color: white;
+  border-bottom: 1px solid #e5e7eb;
+  position: sticky;
+  top: 0;
+  z-index: 100;
+}
+.headerContainer {
+  width: 100%;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 0 40px;
+  height: 64px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
